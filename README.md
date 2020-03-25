@@ -1,0 +1,2 @@
+# mycaddy
+caddy for openshift
