@@ -1,7 +1,7 @@
 #!/bin/sh
 # Caddy new configuration
-cat <<-EOF > /usr/bin/caddy/Caddyfile
-$CONFIG
+cat <<-EOF > /usr/local/Caddyfile
+:8081
 EOF
 # Run Caddy
-/usr/bin/caddy/Caddy 
+/usr/local/caddy
