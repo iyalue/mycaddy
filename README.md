@@ -1,3 +1,2 @@
 # mycaddy
-caddy for openshift
-creating a branch
+部署是需要设置环境变量TEST

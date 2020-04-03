@@ -1,5 +1,6 @@
 FROM alpine
 WORKDIR /usr/local/
+ENV TEST=none
 RUN apk --no-cache add curl tar \
 && curl -L -O https://github.com/caddyserver/caddy/releases/download/v1.0.4/caddy_v1.0.4_linux_amd64.tar.gz \
 && tar -xzf caddy_v1.0.4_linux_amd64.tar.gz \
